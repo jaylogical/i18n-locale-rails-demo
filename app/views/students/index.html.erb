@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Students</h1>
+<h2> <%= t('hello') %></h2>
+<div id="students">
+  <% @students.each do |student| %>
+    <%= render student %>
+    <p>
+      <%= link_to "Show this student", student %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to I18n.t('new_student', locale: session[:locale]), new_student_path %>

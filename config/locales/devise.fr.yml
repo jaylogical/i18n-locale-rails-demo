@@ -1,0 +1,62 @@
+fr:
+  devise:
+    confirmations:
+      confirmed: "Votre adresse email a bien été confirmée. Merci."
+      send_instructions: Vous recevrez un email dans quelques minutes, où vous pourrez confirmer votre inscription.
+      send_paranoid_instructions: Si votre email existe dans notre base de données, vous allez recevoir dans quelques minutes un email avec lequel vous pourrez confirmer votre inscription.
+    failure:
+      user:
+        invited: Il y a déjà une invitation pour cette adresse email. Veuillez vérifier votre boîte aux lettres (également SPAM) et / ou contacter l'administrateur de votre société.
+      not_found_in_database: Vérifiez à nouveau les données que vous avez entrées
+      already_authenticated: Vous êtes déjà connecté.
+      inactive: Votre compte n'est pas activé.
+      invalid: Email ou mot de passe invalide.
+      invalid_token: Token (clé) d'identification invalide.
+      locked: Votre compte est bloqué.
+      timeout: Votre session a expiré, veuillez vous connecter à nouveau.
+      unauthenticated: Vous devez vous connecter ou vous inscrire avant de continuer.
+      unconfirmed: 'Vous n''avez pas confirmé votre compte utilisateur depuis votre inscription.<br/>Veuillez cocher votre boîte aux lettres pour voir s''il y a un courriel avec le lien de confirmation ou demander qu''un nouveau courriel vous soit envoyé. '
+      invitation: 'Malheureusement, vous n''avez pas terminé la procédure d''inscription après votre invitation. <br/> Veuillez vérifier dans votre boîte de réception (également dans le dossier SPAM) si vous avez reçu le courriel d''invitation, nous vous l''avons envoyé à nouveau.'
+    mailer:
+      confirmation_instructions:
+        subject: Instructions pour confirmer votre compte | CompanyMood
+      reset_password_instructions:
+        subject: Instructions pour réinitialiser votre mot de passe
+      unlock_instructions:
+        subject: Instructions pour débloquer votre compte
+    omniauth_callbacks:
+      failure: Votre %{kind} de compte n'a pas pu être autorisée, parce que "%{reason}".
+      success: Vous vous êtes bien connecté avec votre compte  %{kind}.
+    passwords:
+      no_token: "Vous ne pouvez pas vous inscrire tant que vous n'avez pas utilisé le lien contenu dans l'email envoyé. Si c'est bien le cas, vérifiez que vous avez bien utilisé l'adresse URL entière."
+      send_instructions: 'Vous allez recevoir dans quelques minutes un email vous indiquant comment réinitialiser votre mot de passe.'
+      send_paranoid_instructions: Si votre email existe dans notre base de données, vous recevrez un courriel contenant un lien pour retrouver votre mot de passe.
+      updated: Votre mot de passe a bien été changé. Vous êtes maintenant connecté.
+      updated_not_active: Votre mot de passe a bien été changé.
+    registrations:
+      destroyed: Au revoir ! Votre compte a bien été annulé. Merci d'avoir utiliser CompanyMood !
+      signed_up: Bienvenue ! Vous êtes bien inscrit.
+      signed_up_but_inactive: "Vous êtes bien inscrit. Malheureusement, vous ne pouvez pas vous connecter tant que votre compte n'est pas activé. Veuillez utiliser le lien que nous vous avons envoyé pour activer votre compte."
+      signed_up_but_locked: Vous êtes bien connecté. Malheureusement, votre compte à été bloqué et vous ne pouvez l'utiliser.
+      signed_up_but_unconfirmed: Un message de confirmation a été envoyé à votre adresse email. Veuillez cliquer sur le lien afin d'activer votre compte.
+      update_needs_confirmation: Vos données ont été mises à jour, il vous suffit de confirmer votre nouvelle adresse email. En outre, vous recevrez un email dans quelques minutes, que vous pourrez utiliser pour compléter la modification de votre adresse email.
+      updated: Vous avez bien mis à jour votre compte.
+    sessions:
+      new:
+        oauth_header: 'Connectez-vous via'
+        or: ou
+      signed_in: Vous êtes bien connecté.
+      signed_out: Vous êtes bien déconnecté.
+    unlocks:
+      send_instructions: Vous allez recevoir dans quelques minutes un email avec les instructions pour débloquer votre compte.
+      send_paranoid_instructions: Si votre compte existe, vous allez recevoir dans quelques instants un email vous indiquant la marche à suivre pour débloquer votre compte.
+      unlocked: Votre compte a bien été débloqué. Connectez-vous pour continuer.
+  errors:
+    messages:
+      already_confirmed: a déjà été confirmé
+      expired: a expiré, veuillez en demander un nouveau
+      not_found: non trouvé
+      not_locked: n'est pas bloqué
+      not_saved:
+        one: '%{resource} n''a pas pu être sauvegardé : une erreur.'
+        other: 'Impossible de sauvegarder %{resource}: %{count} erreur.'
