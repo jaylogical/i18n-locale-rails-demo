@@ -5,9 +5,9 @@ class DomainRegionMapper
   DEFAULT_TLD = 'com'
 
   TLD_LOCALE_MAPPING = {
-    'de'  => :de,
+    'de' => :de,
     'com' => :en,
-    'fr'  => :fr
+    'fr' => :fr
   }.freeze
 
   ###################
